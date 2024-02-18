@@ -7,7 +7,6 @@ This project introduces a novel approach to managing interactive chat sessions, 
 ## Features
 
 - **Session Management**: Utilizes Redis for efficient session handling, allowing for the retrieval and storage of chat histories associated with unique session tokens.
-- **Complex Question Handling**: Employs a two-step process to manage complex inquiries by first decomposing them into simpler questions and then aggregating the answers to provide a comprehensive response.
 - **Chat History Summarization**: Implements a novel summarization technique to condense chat history, ensuring that token usage in subsequent API calls is minimized without sacrificing the context or quality of interactions.
 - **Feedback Logging**: Incorporates a feedback mechanism for users to provide input on the system's responses, facilitating continuous improvement and customization based on user interactions.
 
